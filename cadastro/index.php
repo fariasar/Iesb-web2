@@ -1,5 +1,6 @@
 <?php 
 	include_once 'cadastro.php';
+	//Teste de Alteração para o versionamento github
 	
 	$cadastro = new cadastro();
 	$cadastros = $cadastro->recuperarTodos();
