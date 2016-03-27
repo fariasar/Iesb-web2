@@ -2,7 +2,7 @@
 
 include_once '../conexao.php';
 
-class cadastro{
+class professor{
 	
 	protected $ID_ESTADOS;
 	protected $UF;

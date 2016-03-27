@@ -1,21 +1,21 @@
 <?php 
 
-include_once 'os.php';
+include_once 'professor.php';
 
-$os = new os();
+$curso = new professor();
 
 switch($_GET['acao']){
 	case 'salvar':
 		
-		if(empty($_POST['ID_ORDEM_DE_SERVICO'])){
-			$resultado = $os->inserir($_POST);
+		if(empty($_POST['id_curso'])){
+			$resultado = $curso->inserir($_POST);
 		} else {
-			$resultado = $os->alterar($_POST);
+			$resultado = $curso->alterar($_POST);
 		}
 		
 		break;
 	case 'excluir':
-		$resultado = $os->excluir($_GET['id_os']);
+		$resultado = $curso->excluir($_GET['id_curso']);
 		break;
 }
 

@@ -2,13 +2,13 @@
 
 include_once '../conexao.php';
 
-class os{
+class aluno{
 	
 	protected $ID_ORDEM_DE_SERVICO;
-   protected $ID_PESSOAS;
-   protected $NOME;
-   protected $NOME2;
-   protected $FUNCIONARIO;
+    protected $ID_PESSOAS;
+    protected $NOME;
+    protected $NOME2;
+    protected $FUNCIONARIO;
 	protected $MATRICULA;
 	protected $MATRICULA2;
 	protected $ID_ITENS_SERVICO;
@@ -19,8 +19,6 @@ class os{
 	protected $FABRICANTE;
 	protected $MODELO;
 	protected $TOTAL;
-
-	
 	
 	public function getIdOs()
 	{

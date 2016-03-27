@@ -7,15 +7,13 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="../inicial/index.php">Projeto Web I - Reguladora</a>
+          <a class="navbar-brand" href="../inicial/index.php">Projeto Web II - MOODLE</a>
         </div>
         <div id="navbar" class="navbar-collapse collapse">
           <ul class="nav navbar-nav">
-          	<li class="active"><a href="../os/index.php">Ordens de Serviço</a></li>
-            <li><a href="../cadastro/index.php">Cadastro de Clientes</a></li>
-            <li><a href="../funcionario/index.php">Cadastro de Funcionários</a></li>
-            <li><a href="../cadastro/index.php">Configurações do Sistema</a></li>
-            <li><a href="../relatorio/index.php">Relatórios</a></li>
+          	<li class="active"><a href="../aluno/index.php">Aluno</a></li>
+            <li><a href="../professor/index.php">Professor</a></li>
+            <li><a href="../administrador/index.php">Administrador</a></li>
             
           </ul>
         </div><!--/.nav-collapse -->

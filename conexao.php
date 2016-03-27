@@ -2,8 +2,8 @@
 
 class Conexao {
 	
-	private $host 	    = '192.168.56.90';
-	private $user 	    = 'usr_reguladora';
+	private $host 	   = '192.168.56.90';
+	private $user 	   = 'usr_reguladora';
 	private $password  = 'usr_reguladora';
 	private $banco     = 'bd_reguladora';
 	

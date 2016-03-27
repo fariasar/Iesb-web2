@@ -1,7 +1,7 @@
 <?php 
-	include_once 'cadastro.php';
+	include_once 'professor.php';
 	
-	$curso = new cadastro();
+	$curso = new professor();
 	
 	if(!empty($_GET['id_curso'])){
 		$curso->carregarPorId($_GET['id_curso']);

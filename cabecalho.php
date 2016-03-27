@@ -1,6 +1,6 @@
 <html>
     <head>
-        <title>Curso</title>
+        <title>EAD - IESB</title>
         <meta charset="utf-8" />
         
         <link type="text/css" rel="stylesheet" href="../js/bootstrap/css/bootstrap.min.css" />

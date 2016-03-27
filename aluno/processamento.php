@@ -1,21 +1,21 @@
 <?php 
 
-include_once 'cadastro.php';
+include_once 'aluno.php';
 
-$curso = new cadastro();
+$aluno = new aluno();
 
 switch($_GET['acao']){
 	case 'salvar':
 		
-		if(empty($_POST['id_curso'])){
-			$resultado = $curso->inserir($_POST);
+		if(empty($_POST['ID_ORDEM_DE_SERVICO'])){
+			$resultado = $aluno->inserir($_POST);
 		} else {
-			$resultado = $curso->alterar($_POST);
+			$resultado = $aluno->alterar($_POST);
 		}
 		
 		break;
 	case 'excluir':
-		$resultado = $curso->excluir($_GET['id_curso']);
+		$resultado = $aluno->excluir($_GET['id_os']);
 		break;
 }
 
